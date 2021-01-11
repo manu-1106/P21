@@ -51,7 +51,7 @@ if(deformation<100){
 }
 function hasCollided(lbullet,lwall)
 {
-  bulletRightEdge=lbullet.x+bullet.width;
+  bulletRightEdge=lbullet.x+lbullet.width;
   wallLeftEdge=lwall.x
 if(bulletRightEdge>=wallLeftEdge){
   return true
